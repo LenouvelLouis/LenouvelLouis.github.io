@@ -56,7 +56,7 @@ function quiprend (){
 
 function DemineurCPP (){
     Titre.innerHTML="DEMINEUR CPP";
-    IMG.src="./Img/demineurCPP.jpg";
+    IMG.src="./Img/demineurCpp.jpg";
     TYPE.innerHTML="Développement Logiciel";
     description.innerHTML="L’objectif de ce projet était de programmer un jeu intitulé « Démineur » ou « Minesweeper »\
     (en Anglais) en plus d’utiliser tous types d’algorithmes qui font utiliser un grand nombre de\
