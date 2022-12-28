@@ -20,7 +20,7 @@ body{
     width: 60%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns : 35% 35% 10% 10% 10%;
+    grid-template-columns : 55% 15% 15% 15%;
 }
 
 #BtnProjet{
@@ -102,9 +102,8 @@ button{
     .Fille{
         width: 50%;
     }
-
-    #Bienvenue{
-        font-size: 40px;
+    #Accueil{
+        padding-bottom: 50%;
     }
 }
 
@@ -124,11 +123,14 @@ button{
         padding: 20px;
     }
     #Bienvenue{
-        font-size: 35px;
+        font-size: 55px;
     }
 
     .Item-Nav{
         font-size: 150%;
+    }
+    #Accueil{
+        padding-bottom: 75%;
     }
 }
 @media screen and (max-width: 600px){
