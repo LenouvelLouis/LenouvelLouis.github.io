@@ -34,7 +34,7 @@ function init(){
 
 window.addEventListener("load",init);
 function quiprend (){
-    Titre.innerHTML="6 QUI PRENDS";
+    Titre.innerHTML="6 QUI PRENDS JAVA";
     IMG.src="./Img/6quiprend.jpg";
     TYPE.innerHTML="Développement Logiciel";
     description.innerHTML="L’objectif de ce projet était de programmer un jeu intitulé « 6 qui prends »\
@@ -46,7 +46,7 @@ function quiprend (){
 }
 
 function DemineurCPP (){
-    Titre.innerHTML="DEMINEUR CPP";
+    Titre.innerHTML="DEMINEUR C++";
     IMG.src="./Img/demineurCpp.jpg";
     TYPE.innerHTML="Développement Logiciel";
     description.innerHTML="L’objectif de ce projet était de programmer un jeu intitulé « Démineur » ou « Minesweeper »\
