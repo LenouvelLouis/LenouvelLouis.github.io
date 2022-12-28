@@ -1,6 +1,5 @@
 #Accueil{
-    background-image: url("./Img/fond.jpg") ;
-    background-size: 100% 100%;
+    background: url("./Img/fond3.jpg") center/cover no-repeat;
     min-height: 100vh;
 }
 
@@ -24,7 +23,7 @@ body{
 }
 
 #BtnProjet{
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     display: grid;
     grid-template-columns : 1fr 1fr;
@@ -33,7 +32,7 @@ body{
 
 button{
     display: block;
-    padding: 10px;
+    padding: 20px;
     border-radius: 15px;
     border: 1px solid white;
     background-color: #001dd1 ;
