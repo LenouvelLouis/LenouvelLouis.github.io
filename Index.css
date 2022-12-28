@@ -68,7 +68,7 @@ button{
 
 
 .Titre{
-    padding: 75px;
+    padding: 60px;
     margin: 0 auto;
     width: 50%;
 }
@@ -78,12 +78,16 @@ button{
 }
 
 #Bienvenue{
-    font-size: 75px;
+    font-size: 40px;
     text-align: center;
     width: 50%;
     height: 300px;
     margin: 0 auto;
     color: white;
+}
+
+#Presentation{
+    font-size: 60px;
 }
 
 
@@ -100,9 +104,6 @@ button{
     }
     .Fille{
         width: 50%;
-    }
-    #Accueil{
-        padding-bottom: 50%;
     }
 }
 
@@ -122,14 +123,14 @@ button{
         padding: 20px;
     }
     #Bienvenue{
-        font-size: 55px;
+        font-size: 30px;
+    }
+    #Presentation{
+        font-size: 50px;
     }
 
     .Item-Nav{
         font-size: 150%;
-    }
-    #Accueil{
-        padding-bottom: 75%;
     }
 }
 @media screen and (max-width: 600px){
