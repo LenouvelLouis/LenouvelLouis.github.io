@@ -84,6 +84,7 @@ button{
     height: 300px;
     margin: 0 auto;
     color: white;
+
 }
 
 #Presentation{
@@ -119,15 +120,6 @@ button{
     }
 }
 @media screen and (max-width: 1000px){
-    .Titre{
-        padding: 20px;
-    }
-    #Bienvenue{
-        font-size: 30px;
-    }
-    #Presentation{
-        font-size: 50px;
-    }
 
     .Item-Nav{
         font-size: 150%;
