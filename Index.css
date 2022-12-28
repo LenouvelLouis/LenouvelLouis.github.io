@@ -112,6 +112,9 @@ button{
     .Titre{
         padding: 50px;
     }
+    button{
+        padding: 15px;
+    }
 
     .Item-Nav{
         font-size: 200%;
@@ -123,6 +126,9 @@ button{
 
     .Item-Nav{
         font-size: 150%;
+    }
+    button{
+        padding: 25px;
     }
 }
 @media screen and (max-width: 600px){
