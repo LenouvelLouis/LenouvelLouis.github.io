@@ -28,20 +28,11 @@ function init(){
     Nav = document.getElementById('Navbar');
     Git=document.getElementById("Git");
     btn6quiprend.click();
-    Nav.style.background="none";
-      window.addEventListener('scroll', function() {
-        Nav.style.background="#001dd1";
-      });
 
 }
 
-function retour(){
-    jQuery('html, body').animate({scrollTop: 0}, 0);
-    Nav.style.background="none";
-}
 
 window.addEventListener("load",init);
-window.addEventListener("load",retour);
 function quiprend (){
     Titre.innerHTML="6 QUI PRENDS";
     IMG.src="./Img/6quiprend.jpg";
