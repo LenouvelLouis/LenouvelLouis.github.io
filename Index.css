@@ -16,7 +16,7 @@ body{
 
 
 #Navbar{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns : 55% 15% 15% 15%;
