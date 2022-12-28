@@ -71,25 +71,18 @@ button{
 .Titre{
     padding: 60px;
     margin: 0 auto;
-    width: 50%;
-}
-
-#TitreJeux{
-    padding: 50px;
 }
 
 #Bienvenue{
-    font-size: 40px;
+    display: block;
+    align-items: center;
+    font-size: 4rem;
     text-align: center;
     width: 50%;
     height: 300px;
     margin: 0 auto;
     color: white;
 
-}
-
-#Presentation{
-    font-size: 60px;
 }
 
 
@@ -110,9 +103,6 @@ button{
 }
 
 @media screen and (max-width: 1150px){
-    .Titre{
-        padding: 50px;
-    }
     button{
         padding: 15px;
     }
@@ -130,11 +120,11 @@ button{
     button{
         padding: 25px;
     }
+    #Bienvenue{
+        font-size: 3.5rem;
+    }
 }
 @media screen and (max-width: 600px){
-    .Titre{
-        padding: 5px;
-    }
 
     .Item-Nav{
         padding-top: 20px;
