@@ -1,5 +1,7 @@
 #Accueil{
     min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 body{
@@ -84,7 +86,6 @@ button{
     font-size: 1.8rem;
 }
 .Titre{
-    padding: 60px;
     margin: 0 auto;
 }
 .TitrePres{
