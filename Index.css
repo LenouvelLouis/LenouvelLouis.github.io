@@ -1,29 +1,47 @@
 #Accueil{
-    background: url("./Img/fond3.jpg") center/cover no-repeat;
     min-height: 100vh;
 }
 
 body{
     margin: 0;
+    background: url("./Img/fond.jpg") fixed center/cover no-repeat;
 }
 #Projet{
     padding: 100px ;
-    background-color: #303132;
     color: white;
     text-align: center;
     min-height: 100vh;
 }
 
+button:hover{
+    background-color: white;
+    transition: 1s;
+    color: rgba(3,29,210,255);
+}
+
+i:hover,
+a:hover{
+    transition: 1s;
+    color: #11c8fb;
+}
 
 #Navbar{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns : 55% 15% 15% 15%;
+    grid-template-columns : 40% 20% 20% 20%;
+}
+.Item-Nav{
+    font-size:4rem;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 #BtnProjet{
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns : 1fr 1fr;
@@ -35,21 +53,11 @@ button{
     padding: 20px;
     border-radius: 15px;
     border: 1px solid white;
-    background-color: rgba(54,4,143,255) ;
+    background-color: rgba(3,29,210,255) ;
     color: white;
     margin: 5px;
     font-size: 1.4rem;
-}
-
-
-.Item-Nav{
     width: 100%;
-    font-size:250%;
-    color: white;
-    text-decoration: none;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 50px;
 }
 
 #Navbar > a{
@@ -61,16 +69,29 @@ button{
     width: 100%;
 }
 
+#Git{
+    color: white;
+}
 .PresJeux{
+    margin: 0 auto;
+    width: 60%;
     display: grid;
     grid-template-columns : 50% 50%;
 }
-
-
-
+.Fille{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.8rem;
+}
 .Titre{
     padding: 60px;
     margin: 0 auto;
+}
+.TitrePres{
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 2rem;
+
 }
 
 #Bienvenue{
@@ -78,59 +99,62 @@ button{
     align-items: center;
     font-size: 4rem;
     text-align: center;
-    width: 50%;
-    height: 300px;
+    width: 80%;
     margin: 0 auto;
     color: white;
-
 }
 
 
-.Fille{
-    margin: 0 auto;
-    width: 80%;
-    font-size: 150%;
-}
 
 
 @media screen and (max-width: 1500px){
     .PresJeux{
         display: block;
+        width: 80%;
     }
     .Fille{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1150px){
-    button{
-        padding: 15px;
-    }
-
-    .Item-Nav{
-        font-size: 200%;
-        padding-top: 30px;
-        padding-bottom: 30px
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 1000px){
-    .Item-Nav{
-        font-size: 150%;
-    }
     button{
         padding: 25px;
     }
+    .Fille{
+        font-size: 1.4rem;
+    }
+    .TitrePres{
+        padding: 20px;
+        font-size: 1.6rem;
+    }
+    .PresJeux{
+        width: 80%;
+    }
     #Bienvenue{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+    }
+    .Item-Nav{
+        font-size: 3rem;
     }
 }
-@media screen and (max-width: 600px){
-
+@media screen and (max-width: 700px){
+    .TitrePres{
+        font-size: 1rem;
+    }
+    .TitrePres{
+        font-size: 1.2rem;
+    }
     .Item-Nav{
         padding-top: 20px;
-        font-size: 120%;
         padding-top: 20px;
+        font-size: 1.7rem;
         padding-bottom: 20px
+    }
+    #BtnProjet{
+        display: block;
+    }
+    #Git{
+        font-size: 1rem;
     }
 }
 
